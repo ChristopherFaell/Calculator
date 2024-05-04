@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+</head>
+
+<body>
+    <label>Number1</label>
+    <input type="number" name="" id="n1" placeholder="Insert your first number">
+    <br />
+    <label>Number2</label>
+    <input type="number" name="" id="n2" placeholder="Insert your second number">
+    <br />
+    <label>Operation</label>
+    <select id="operation">
+        <option value="">Select an operation</option>
+        <option value="+">Plus</option>
+        <option value="-">Minus</option>
+        <option value="*">Times</option>
+        <option value="/">Divided by</option>
+    </select>
+    <br />
+
+    <button type="button" onclick="calculate()">
+        Calculate 0_0
+    </button>
+    <br />
+
+    <div id="result">RESULT</div>
+
+    <button type="button" onclick="clean()">
+        CleanItAll :/
+    </button>
+
+    <script src="JS/calculator.js"></script>
+</body>
+</html>
